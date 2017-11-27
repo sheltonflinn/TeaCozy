@@ -1,0 +1,139 @@
+body {
+  margin: 0px;
+  display: block;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header {
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+header span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+header span a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+}
+
+header nav {
+  padding-right: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 1200px;
+  padding-top: 70px;
+  opacity: 0.9;
+  margin: auto;
+}
+
+#mission-section {
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  align-items: center;
+  height: 700px;
+  padding-top: 70px;
+}
+
+.mission-text {
+  display: block;
+  width: 100%;
+  background-color: black;
+  margin: auto;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+#features-section {
+  height: 700px;
+  width: 1000px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+.feature {
+  padding: 5px;
+}
+
+.feature img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.feature span {
+  display: block;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+}
+
+#locations-section {
+  height: 500px;
+  background-image: url("../images/img-locations-background.jpg");
+  padding-top: 70px;
+}
+
+#locations-section .flex-container {
+  margin: auto;
+  width: 1100px;
+}
+
+.flex-container.locations {
+  padding-top: 5px;
+}
+
+.location {
+  background-color: black;
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact-section {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
